@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://res.cloudinary.com/dwjdlzovj/image/upload/v1763930249/favicon-32x32_p9ckb3.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | Insure landing page</title>
+</head>
+<body>
+    <header class="header">
+        <div>
+            <img src="https://res.cloudinary.com/dwjdlzovj/image/upload/v1765386512/logo_wmezdf.svg" alt="insurance">
+        </div>
+        <div>
+            <nav>
+                <div>
+                    <a href="#">How we work</a>
+                </div>
+                <div>
+                    <a href="#"> Blog</a>
+                </div>
+                <div>
+                    <a href="#"> Account </a>
+                </div>
+                <div>
+                    <button> View plans </button>
+                </div>
+            </nav>
+
+            <div class="openmenu" onclick="openMenu()">
+                <img src="https://res.cloudinary.com/dwjdlzovj/image/upload/v1765386508/icon-hamburger_qaq0h6.svg" alt="icon-hamburger_qaq0h6">
+            </div>
+        </div>
+    </header>
+
+    <!--SIDE-BAR-->
+    <div class="Sidebar-menu" id="sidebar">
+        <div class="sidebar-header">
+        <div>
+            <img src="https://res.cloudinary.com/dwjdlzovj/image/upload/v1765386512/logo_wmezdf.svg" alt="insurance">
+        </div>
+        <div onclick="closeMenu()">
+            <img src="https://res.cloudinary.com/dwjdlzovj/image/upload/v1765386507/icon-close_okggqo.svg" alt="icon-close_okggqo">
+        </div>
+        </div>
+
+
+        <nav class="sidebar-nav">
+             <div>
+                 <a href="#">How we work</a>
+                </div>
+                <div>
+                    <a href="#"> Blog</a>
+                </div>
+                <div>
+                    <a href="#"> Account </a>
+                </div>
+                <div>
+                    <button> View plans </button>
+                </div>
+        </nav>
+    </div>
+
+    <!--Main section-->
+    <main>
+        <div>
+             <img src="https://res.cloudinary.com/dwjdlzovj/image/upload/v1765386512/image-intro-mobile_jkbwii.jpg" alt="image-intro-mobile" class="image-intro-mobile">
+        </div>
+      <div class="Introduction">
+        <div class="Humanizing">
+            <hr>
+             <h1> Humanizing your insurance.</h1>
+            <p>
+                Get your life insurance coverage easier and faster. We blend our expertise 
+                and technology to help you find the plan that’s right for you. Ensure you 
+                and your loved ones are protected.
+            </p>
+
+            <button> View plans</button>
+        </div>
+        <div>
+            <img src="https://res.cloudinary.com/dwjdlzovj/image/upload/v1765386512/image-intro-desktop_s0whxh.jpg" alt="image-intro-desktop_s0whxh" class="image-intro-desktop">
+            <div class="bg-image">
+                <img src="https://res.cloudinary.com/dwjdlzovj/image/upload/v1765386508/bg-pattern-intro-right-desktop_rco8oe.svg" alt="bg-pattern-intro-right-desktop_rco8oe">
+            </div>
+        </div>
+      </div>
+
+
+      <div class="best">
+        <img src="https://res.cloudinary.com/dwjdlzovj/image/upload/v1765386509/bg-pattern-intro-right-mobile_nwkdy6.svg" alt="bg-pattern-intro-right-mobile_nwkdy6">
+      </div>
+      <div class="middle">
+        <div class="left">
+            <img src="https://res.cloudinary.com/dwjdlzovj/image/upload/v1765386508/bg-pattern-intro-left-desktop_suo4fs.svg" alt="bg-pattern-intro-left-desktop_suo4fs">
+        </div>
+        <div>
+           <hr>
+           <h1 class="heading"> We're different</h1>
+        </div>
+        <div class="different">
+             <div>
+            <div>
+                <img src="https://res.cloudinary.com/dwjdlzovj/image/upload/v1765386511/icon-snappy-process_bohxix.svg" alt="Snappy">
+            </div>
+            <div>
+
+                <h3> Snappy Process</h3>
+
+                <p>
+             Our application process can be completed in minutes, not hours. Don’t get 
+            stuck filling in tedious forms.
+                </p>
+        </div>
+        </div>
+
+
+        <div>
+            <div>
+                <img src="https://res.cloudinary.com/dwjdlzovj/image/upload/v1765386510/icon-affordable-prices_kc47v9.svg" alt="Affordable">
+            </div>
+            <div>
+                <h3> Affordable Prices</h3>
+
+                <p>
+            We don’t want you worrying about high monthly costs. Our prices may be low, 
+            but we still offer the best coverage possible.
+                </p>
+            </div>
+        </div>
+
+
+        <div>
+            <div>
+                <img src="https://res.cloudinary.com/dwjdlzovj/image/upload/v1765386510/icon-people-first_lf0wyr.svg" alt="Contact">
+            </div>
+            <div>
+                <h3> People First</h3>
+
+                <p>
+             Our plans aren’t full of conditions and clauses to prevent payouts. We make 
+            sure you’re covered when you need it.
+                </p>
+            </div>
+        </div>
+        </div>
+
+       
+      </div>
+      
+      <!--How we work-->
+      <div class="work">
+        <div>
+            <h1> Find out more about how we work</h1>
+        </div>
+        <div>
+            <button>  How we work</button>
+        </div>
+      </div>
+    </main>
+
+
+    <footer>
+       <div class="socials">
+         <div>
+            <img src="https://res.cloudinary.com/dwjdlzovj/image/upload/v1765386512/logo_wmezdf.svg" alt="insurance">
+        </div>
+        <div class="icons">
+            <img src="https://res.cloudinary.com/dwjdlzovj/image/upload/v1765386507/icon-facebook_aizrqy.svg" alt="icon-facebook_aizrqy">
+            <img src="https://res.cloudinary.com/dwjdlzovj/image/upload/v1765386512/icon-twitter_yzjzpn.svg" alt="icon-twitter_yzjzpn">
+            <img src="https://res.cloudinary.com/dwjdlzovj/image/upload/v1765386511/icon-pinterest_zvnvdl.svg" alt="icon-pinterest_zvnvdl">
+            <img src="https://res.cloudinary.com/dwjdlzovj/image/upload/v1765386510/icon-instagram_ebbedu.svg" alt="icon-instagram_ebbedu">
+        </div>
+       </div>
+        <hr>
+        <div class="footer">
+           <div>
+            <p class="cat">Our company</p>
+
+            <p class="links">How we work</p>
+            <p class="links">Why Insure?</p>
+            <p class="links"> View plans</p>
+            <p class="links"> Reviews</p>
+           </div>
+
+           <div>
+            <p class="cat">Help me</p>
+
+            <p class="links"> FAQ</p>
+            <p class="links">Terms of use</p>
+            <p class="links"> Privacy policy</p>
+            <p class="links"> Cookies</p>
+           </div>
+
+            <div>
+            <p class="cat"> Contact</p>
+
+            <p class="links"> Sales</p>
+            <p class="links">Support</p>
+            <p class="links"> Live chat</p>
+            </div>
+
+            <div>
+            <p class="cat">Others</p>
+
+             <p class="links">Careers</p>
+             <p class="links">Press</p>
+             <p class="links">Licenses</p>
+            </div>
+        </div>
+    </footer> 
+    <script src="index.js"></script>
+</body>
+</html>
